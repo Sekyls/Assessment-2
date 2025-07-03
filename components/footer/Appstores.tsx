@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 const Appstores = () => {
   return (
@@ -11,7 +12,7 @@ const Appstores = () => {
           className=" w-48 h-16 border border-secblue rounded-lg bg-white"
         >
           <Link href="">
-            <img className="w-full" src="/appstore.svg" alt="appstore" />
+            <Image className="w-full" src="/appstore.svg" alt="appstore" />
           </Link>
         </Button>
         <Button
@@ -19,7 +20,7 @@ const Appstores = () => {
           className="w-48 h-16 border border-secblue rounded-lg bg-white"
         >
           <Link href="">
-            <img className="w-full" src="/googleplay.svg" alt="googleplay" />
+            <Image className="w-full" src="/googleplay.svg" alt="googleplay" />
           </Link>
         </Button>
       </div>

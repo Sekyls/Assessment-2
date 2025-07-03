@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export interface exchangeprop {
@@ -38,7 +39,7 @@ const ExchangeWidget = ({
 
       {/* Right section */}
       <div className="flex items-center justify-center h-full w-1/3 bg-darkblue rounded-r-md">
-        <img className="h-5 w-auto" src={currencyimg} alt={imgalt} />
+        <Image className="h-5 w-auto" src={currencyimg} alt={imgalt} />
         <p className="pl-1.5 text-white text-xs font-normal md:text-sm">
           {currencyinit}
         </p>

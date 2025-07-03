@@ -8,7 +8,7 @@ const TrustedPartners = () => {
       </h3>
 
       <p className="text-base md:text-lg font-normal leading-relaxed text-secblue">
-        We're partners with countless major organisations around the globe
+        We&apos;re partners with countless major organisations around the globe
       </p>
     </div>
   );

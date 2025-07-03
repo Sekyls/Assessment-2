@@ -64,11 +64,13 @@ const SlideCarousel = () => {
                 <span>
                   With Bomba, you get to choose how you send and receive money;
                   send at your own rate with{" "}
-                  <span className="text-secgreen">'Swap'</span>, send and
-                  receive instantly with{" "}
-                  <span className="text-secgreen">'Express'</span>, or make free
-                  local transfers with{" "}
-                  <span className="text-secgreen">'Withdraw Money'</span>
+                  <span className="text-secgreen">&apos;Swap&apos;</span>, send
+                  and receive instantly with{" "}
+                  <span className="text-secgreen">&apos;Express&apos;</span>, or
+                  make free local transfers with{" "}
+                  <span className="text-secgreen">
+                    &apos;Withdraw Money&apos;
+                  </span>
                 </span>
               }
             />
@@ -102,9 +104,9 @@ const SlideCarousel = () => {
               supportingtext={
                 <span>
                   When you send money using
-                  <span className="text-secgreen"> 'Express'</span> – it’s sent
-                  at Bomba exchange rate and your transaction is completed
-                  instantly
+                  <span className="text-secgreen"> &apos;Express&apos;</span> –
+                  it&apos;s sent at Bomba exchange rate and your transaction is
+                  completed instantly
                 </span>
               }
             />

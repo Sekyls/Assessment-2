@@ -14,10 +14,10 @@ const Bombastack = () => {
       <p className="text-base md:text-lg font-normal text-secblue leading-relaxed mt-4">
         Bomba provides you the luxury of sending money at rates that suit you.
         You can easily send and swap money between GBP, USD, NGN and up to 20
-        other African countries using Bomba’s{" "}
-        <span className="text-secgreen">'Swap'</span> and{" "}
-        <span className="text-secgreen">'Express'</span> services. Beat bank
-        rates, save time and gain more.
+        other African countries using Bomba&apos;s{" "}
+        <span className="text-secgreen">&apos;Swap&apos;</span> and{" "}
+        <span className="text-secgreen">&apos;Express&apos;</span> services.
+        Beat bank rates, save time and gain more.
       </p>
     </div>
   );

@@ -9,7 +9,7 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
-import { Menu, X, ChevronDown, Equal } from "lucide-react";
+import { X, ChevronDown, Equal } from "lucide-react";
 import * as Collapsible from "@radix-ui/react-collapsible";
 
 const Navbar = () => {
@@ -27,7 +27,11 @@ const Navbar = () => {
               onClick={() => setMobileOpen(!mobileOpen)}
               className="text-secblue focus:outline-none"
             >
-              {mobileOpen ? <X size={24} /> : <Equal color="#233375" size={40} />}
+              {mobileOpen ? (
+                <X size={24} />
+              ) : (
+                <Equal color="#233375" size={40} />
+              )}
             </button>
           </div>
 
