@@ -29,7 +29,7 @@ const NewsLetter = () => {
   return (
     <form
       onSubmit={handleSubmit(submitForm)}
-      className="w-full max-w-[26rem] px-4"
+      className="w-fit max-w-[26rem] px-4 mx-auto"
     >
       <h4 className="font-medium text-lg sm:text-xl leading-loose tracking-tight text-deepblue mb-1.5">
         Stay update on our newsletter

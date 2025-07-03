@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Appstores = () => {
   return (
-    <div className="w-full px-4">
+    <div className="w-fit px-4 mx-auto">
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 w-full max-w-md items-center">
         <Button
           asChild
@@ -24,7 +24,7 @@ const Appstores = () => {
         </Button>
       </div>
 
-      <div className="font-normal text-sm sm:text-base mt-6 mb-16 leading-normal text-center sm:text-left">
+      <div className="font-normal text-sm sm:text-base mt-6 mb-16 leading-normal text-center md:text-left">
         <p className="text-deepblue mb-1">
           © 2022 Bomba Limited. All rights reserved.
         </p>
