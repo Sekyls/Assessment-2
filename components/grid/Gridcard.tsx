@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-import Image from "next/image";
 import React from "react";
 export interface griditeminfo {
   p1: string;
@@ -34,7 +33,7 @@ const GridCard = ({
       }}
     >
       {/* Optional Coming Soon badge */}
-      <Image
+      <img
         className="absolute top-4 left-4 md:left-[3.61rem]"
         style={{ display: coming_soon }}
         src="/soon.svg"
@@ -61,8 +60,8 @@ const GridCard = ({
         </div>
       </div>
 
-      {/* Image section */}
-      <Image
+      {/* img section */}
+      <img
         className="w-full flex justify-end ml-auto"
         src={imgsrc}
         alt={imgalt}

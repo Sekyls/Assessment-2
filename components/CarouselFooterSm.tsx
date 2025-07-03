@@ -28,8 +28,8 @@ const CarouselFooterSm = () => {
           <path
             d="M21.4202 18.1391L11.4591 24.0209C9.79246 25.005 7.71875 23.7615 7.71875 21.778V10.0144C7.71875 8.03085 9.79246 6.78732 11.4591 7.77144L21.4202 13.6532C23.0997 14.6449 23.0997 17.1474 21.4202 18.1391Z"
             stroke="white"
-            stroke-width="1.5"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinejoin="round"
           />
         </svg>
         <p className="text-darkblue text-lg/relaxed font-normal">

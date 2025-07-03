@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footernavs = () => {
   return (
-    <div className="w-full max-w-[34rem] text-secblue text-lg sm:text-2xl font-normal tracking-[-0.03rem] flex justify-start items-start gap-10">
+    <div className="w-full max-w-[34rem] text-secblue text-lg sm:text-2xl font-normal tracking-[-0.03rem] flex justify-center items-center gap-10 mx-auto">
       <div>
         <p className="font-medium text-base tracking-tight leading-[1.125rem] mb-2">
           Company
