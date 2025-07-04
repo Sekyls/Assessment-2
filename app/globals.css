@@ -143,6 +143,7 @@
   --color-exgrey: #d1d1d1;
   --color-blkgrey: #6f6f6f;
   --color-LimeGreen: #23ce6b;
+  --color-sapium: #21ab5c;
 }
 @media (max-width: 285px) {
   .custommed {
